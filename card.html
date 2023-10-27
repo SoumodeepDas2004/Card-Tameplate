@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<section id="Card" class="center">
+
+  <head>
+    <!-- <link rel="stylesheet" href="style.css">  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <style>
+    *,
+    section {
+      font-family: Arial, Helvetica, sans-serif;
+      align-content: center;
+      font-style: italic;
+      padding: 0;
+      margin: 0;
+      background-color: #8cc6de;
+    }
+
+    #Card {
+      background-color: rgb(218, 245, 244);
+    }
+
+    .main,
+    .text {
+      background-color: #a0c9f8;
+      padding: 5px;
+      border: 3px solid #638ae4;
+      margin: 10pt;
+      width: 450px;
+      height: auto;
+      overflow: auto;
+      border-radius: 10%;
+    }
+
+    .text {
+      background-color: #c6ecff;
+      padding: 0.4%;
+      border: 2px solid rgb(223, 217, 237);
+      margin: 10pt;
+      overflow: scroll;
+      border-radius: 20%;
+    }
+
+    #tags,
+    button {
+
+      height: 20px;
+    }
+
+    #nature:hover,
+    #lake:hover {
+      font-weight: bolder;
+      background-color: #4ae7e7;
+      border: 1px solid rgba(11, 15, 232, 0.747);
+
+    }
+
+    #readmore {
+      position: relative;
+      text-shadow: auto auto 20% #1613d3;
+      background-color: rgb(217, 230, 233);
+      border: solid #42bcdb;
+      border-radius: 15%
+    }
+
+    #readmore:hover {
+      font-weight: bolder;
+      position: relative;
+      text-shadow: auto auto 20% #1613d3;
+      background-color: rgb(59, 231, 214);
+      border: solid #1613d3;
+      border-radius: 15%
+    }
+
+    img {
+      margin: 1ch;
+      padding: 5px;
+      position: relative;
+      border: #3a0c9f solid;
+      border-radius: 15%;
+      width: 353px;
+      height: 333px;
+    }
+
+    p,
+    h2,
+    .image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin: 7px;
+      padding: 5px;
+      background-color: #9ecfea;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: white;
+    }
+  </style>
+
+  <body>
+    <div class="main">
+      <div><img
+          src="https://media.gettyimages.com/id/157404674/photo/the-world-at-rest.jpg?s=612x612&w=0&k=20&c=2cpNP6xODJ29_hxD3LgEmLmvKJV_xr-uvkeTsXe4vYk%3D"
+          alt="man fishing" class="center image"></div>
+      <div id="tags"><span id="nature" class="text">Nature</span>
+        <span id="lake" class="text">Lake</span>
+      </div>
+      <h2>Lago Di Barias</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt ipsa harum corporis est hic praesentium
+        suscipit, eos, cupiditate voluptas fuga asperiores molestiae ratione.</p>
+      <button id="readmore" class="center">Read More</button>
+    </div>
+  </body>
+</section>
+
+</html>
